@@ -1,0 +1,79 @@
+*{
+    padding-left: 1%;
+    font-family: sans-serif;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 80px;
+    padding: 10px 20px; 
+}
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.request{
+   background-color: limegreen;
+   color: white;
+   border-radius: 20px;
+   padding:10px 20px ;
+   text-decoration: none;
+}
+.main{
+    background-image: url("file:///C:/Users/hitesh/html/html/images/bg-intro-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 55%;
+    padding-top: -10%;
+    height: 900px;
+}
+.main2{
+    position: absolute;
+    top: 40%;
+    display: inline;
+}
+.pre{
+    font-size: 60px;
+    font-weight: 400;
+}
+.main3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    color: gray;
+}
+.easy{
+    background-color: rgba(240, 248, 255, 0.733);
+}
+.footer{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(233,26%,24%);
+}
+.link1 ul li{
+    list-style: none;
+}
+.link1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    color: white;
+    text-emphasis-color: white;
+}
